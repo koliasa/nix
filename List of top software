@@ -3,9 +3,12 @@ Visual Studio Code
 
 ## RDP
 Remmina
-Remote Touchpad
+
+remote-touchpad
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.github.unrud.RemoteTouchpad
+flatpak run com.github.unrud.RemoteTouchpad
+
 
 ## Clients
 GitHub Desktop
