@@ -16,7 +16,6 @@ flatpak install flathub com.github.unrud.RemoteTouchpad
 flatpak run com.github.unrud.RemoteTouchpad
 </pre>
 
-
 ### Clients
 qBittorrent
 GitHub Desktop
