@@ -20,3 +20,12 @@ flatpak run com.github.unrud.RemoteTouchpad
 ### Clients
 GitHub Desktop
 Chrome
+
+### Viewers
+Evince (fix google drive deny)
+<pre>
+sudo apt-get remove evince
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.gnome.Evince
+</pre>
