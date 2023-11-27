@@ -1,5 +1,5 @@
 ## Ubuntu ##
-![Ubuntu](/images/ubuntu-logo.png)
+![Ubuntu](/images/ubuntu-logo.png?width=100&height=100)
 
 ## Edit
 Visual Studio Code
