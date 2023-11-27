@@ -1,7 +1,7 @@
-## Edit
+### Edit
 Visual Studio Code
 
-## RDP
+### RDP
 Remmina
 
 remote-touchpad
@@ -12,6 +12,6 @@ flatpak run com.github.unrud.RemoteTouchpad
 </code>
 
 
-## Clients
+### Clients
 GitHub Desktop
 Chrome
