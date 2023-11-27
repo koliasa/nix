@@ -8,7 +8,7 @@ Remote-touchpad
 <pre>
   #Install Flatpak
 sudo apt install flatpak
-  #Add the Flathub repository
+  #Add the Flathub repository (option)
 flatpak --user remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
   #Install remote-touchpad
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
