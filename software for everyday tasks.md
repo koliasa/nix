@@ -1,5 +1,5 @@
 ## Ubuntu ##
-![macOS](/images/ubuntu.png)
+![Ubuntu](/images/ubuntu-logo.png)
 
 ## Edit
 Visual Studio Code
