@@ -1,4 +1,7 @@
-### Edit
+## Ubuntu ##
+![macOS](/images/ubuntu.png)
+
+## Edit
 Visual Studio Code
 
 ### RDP
@@ -16,8 +19,8 @@ flatpak install flathub com.github.unrud.RemoteTouchpad
 flatpak run com.github.unrud.RemoteTouchpad
 </pre>
 
-
 ### Clients
+qBittorrent
 GitHub Desktop
 Chrome
 
