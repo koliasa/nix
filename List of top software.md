@@ -18,6 +18,7 @@ flatpak run com.github.unrud.RemoteTouchpad
 
 
 ### Clients
+qBittorrent
 GitHub Desktop
 Chrome
 
