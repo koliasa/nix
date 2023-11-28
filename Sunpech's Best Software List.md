@@ -33,3 +33,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install flathub org.gnome.Evince
 </pre>
 htop
+
+
+## ScreenSaver ##
+snap install asciiquarium
+sudo apt install cmatrix
