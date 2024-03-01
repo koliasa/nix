@@ -14,4 +14,6 @@ sudo apt install -y \
 sudo apt install snapd
 sudo snap install asciiquarium
 
-sudo apt install gnome-tweaks
+#Міняємо метов переключення роскладки кравіатури (зміна мови вводу) на ліві клавіші ALT+TAB
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Shift>Alt_L']"
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Alt>Shift_L']"
