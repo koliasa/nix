@@ -14,3 +14,4 @@ sudo apt install -y \
 sudo apt install snapd
 sudo snap install asciiquarium
 
+sudo apt install gnome-tweaks
