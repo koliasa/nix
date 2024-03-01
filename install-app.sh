@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Оновлення списків пакетів і встановлення програм з apt
+# Update package lists and install programs using apt
 sudo apt update
 sudo apt install -y \
     git \
@@ -8,16 +8,14 @@ sudo apt install -y \
     code \
     htop \
     qbittorrent \
-    gnome-shell-extension-manager
+    gnome-shell-extension-manager \
+    snapd \
+    vlc \
+    ubuntu-restricted-extras
 
-# Встановлення snapd і asciiquarium
-sudo apt install snapd
+# Install snapd and asciiquarium
 sudo snap install asciiquarium
 
-#Video
-sudo apt install ubuntu-restricted-extras
-sudo apt install vlc
-
-#Міняємо метов переключення роскладки кравіатури (зміна мови вводу) на ліві клавіші ALT+TAB
+# Change keyboard layout switch shortcut to Left Alt+Tab
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Shift>Alt_L']"
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "['<Alt>Shift_L']"

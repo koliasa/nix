@@ -20,3 +20,52 @@ We welcome contributions to this repository. If you have any instructions or com
 ## License
 
 This repository is licensed under the MIT License.
+
+
+## install-app.sh
+
+This script will:
+Update package lists.
+Install the following programs using apt:
+git
+chromium-browser
+Visual Studio Code (code)
+htop
+qBittorrent
+Gnome Shell Extension Manager
+snapd
+VLC media player
+ubuntu-restricted-extras
+Install asciiquarium using snap.
+Change the keyboard layout switch shortcut to Left Alt+Tab.
+
+## To execute the script, choose one of the methods above and run the respective command in your terminal.
+```bash
+sudo curl -sL https://raw.githubusercontent.com/koliasa/Ubuntu/main/install-app.sh | bash
+```
+```bash
+sudo wget -q https://raw.githubusercontent.com/koliasa/Ubuntu/main/install-app.sh -O - | bash
+```
+```bash
+sudo git clone https://github.com/koliasa/Ubuntu.git
+cd Ubuntu
+sudo ./install_app.sh
+```
+
+## rdp-mouse.sh
+
+This script is used to install and run RemoteTouchpad on Ubuntu. RemoteTouchpad is an application that turns your phone into a touchpad for your computer.
+
+### Instructions to run
+Download the script:
+```bash
+wget https://raw.githubusercontent.com/koliasa/Ubuntu/main/rdp-mouse.sh -O rdp-mouse.sh
+```
+Make the file executable:
+```bash
+chmod +x rdp-mouse.sh
+```
+Run the script:
+```bash
+./rdp-mouse.sh
+```
