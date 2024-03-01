@@ -16,7 +16,6 @@ sudo snap install asciiquarium
 
 #Video
 sudo apt install ubuntu-restricted-extras
-sudo apt install mpv
 sudo apt install vlc
 
 #Міняємо метов переключення роскладки кравіатури (зміна мови вводу) на ліві клавіші ALT+TAB
