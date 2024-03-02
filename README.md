@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/koliasa/Ubuntu/blob/main/images/ubuntu.png" alt="Ubuntu logo">
+</div>
+
 # Ubuntu instructions and commands
 
 This repository contains a library of basic Ubuntu instructions and commands. It is intended to be a resource for beginners and experienced users alike.
