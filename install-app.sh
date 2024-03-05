@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update package lists
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 
 # Повідомлення про початок інсталяції програм
 echo "Оновлено списки пакетів. Почнеться інсталяція програм..."
