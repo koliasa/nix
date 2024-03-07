@@ -1,0 +1,21 @@
+# Браузер
+sudo apt install lynx
+# Погода
+curl wttr.in/Ternopil
+# Консольний музичний плеєр
+sudo snap install musikcube
+# Топовий диспечер завдань
+sudo snap install btop
+# Консольний пошуковик (стара шляпа, не працює)
+sudo apt install googler
+# Загальна інформація про систему
+sudo apt install neofetch
+# Дисковий 
+sudo apt install ncdu
+# Файловий менеджер
+sudo apt install nnn
+# Консольна карта
+telnet mapscii.me
+sudo snap install mapscii
+# Акваріум
+sudo snap install asciiquarium
