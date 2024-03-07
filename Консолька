@@ -19,3 +19,7 @@ telnet mapscii.me
 sudo snap install mapscii
 # Акваріум
 sudo snap install asciiquarium
+
+# Коли вийобуються оновлення, та через центр пакетів оновлення плюються на помилки
+snap-store --quit
+sudo snap refresh
