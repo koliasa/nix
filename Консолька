@@ -19,6 +19,13 @@ telnet mapscii.me
 sudo snap install mapscii
 # Акваріум
 sudo snap install asciiquarium
+#Срака пердяка (імітація роботи, дико грузить проц)
+sudo snap install hollywood --classic
+
+sudo apt-add-repository ppa:hollywood/ppa
+sudo apt-get update
+sudo apt-get install hollywood byobu
+hollywood
 
 # Коли вийобуються оновлення, та через центр пакетів оновлення плюються на помилки
 snap-store --quit
