@@ -1,3 +1,5 @@
+sudo snap install remote-touchpad
+
 #!/bin/bash
 # Встановлення flatpak і RemoteTouchpad
 sudo apt install flatpak
