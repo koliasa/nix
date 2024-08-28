@@ -30,3 +30,6 @@ hollywood
 # Коли вийобуються оновлення, та через центр пакетів оновлення плюються на помилки
 snap-store --quit
 sudo snap refresh
+
+# Це дозволить оновити всі пакунки, незважаючи на phased updates.
+sudo apt-get upgrade -o APT::Get::Always-Include-Phased-Updates=true
