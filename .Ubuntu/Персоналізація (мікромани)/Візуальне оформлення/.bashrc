@@ -125,6 +125,7 @@ alias c='code'
 alias h='htop'
 alias b='bmon'
 alias n='nload'
+alias q='exit'
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
