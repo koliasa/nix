@@ -7,6 +7,11 @@ Host k1
     User k1
     IdentityFile ~/.ssh/koliasa
 
+Host k2
+    HostName 192.168.1.10
+    User k1
+    IdentityFile ~/.ssh/koliasa
+
 # Якщо виникають проблеми з зєднанням, обмежуємо права доступу ключа
 chmod 600 ~/.ssh/koliasa
 

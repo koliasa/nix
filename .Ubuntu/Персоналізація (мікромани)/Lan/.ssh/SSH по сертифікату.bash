@@ -61,5 +61,25 @@ sudo systemctl restart ssh
 # |    =oo...=+ .   |
 # +----[SHA256]-----+
 
+#
 # Публічні ключі роздаються ПК до яких потрібно отримати доступ
 # Приватний ключ для доступу 
+#   COPY
+#Скопіювати публічний ключ
+cat ./koliasa.pub >> ~/.ssh/authorized_keys
+#Щоб переглянути публічні ключі 
+cat ~/.ssh/authorized_keys
+#   DELETE
+#Щоб витерти всі публічні ключі
+sudo truncate -s 0 ~/.ssh/authorized_keys
+# Або використовуйте команду echo для перезапису файла:
+sudo sh -c 'echo -n > ~/.ssh/authorized_keys'
+#   CONNECT
+# Підключіться до сервера за допомогою специфікації приватного ключа:
+ssh -i ~/.ssh/koliasa k1@192.168.1.10
+# Щоб уникнути введення ключа кожного разу, ви можете додати його до SSH-агента:
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/koliasa
+#   LOGS
+#логи для отримання інформації про помилки:
+sudo tail -f /var/log/auth.log
