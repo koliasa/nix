@@ -18,6 +18,12 @@ warp-cli status
 warp-cli mode warp
 warp-cli connect
 
+#Дозволити локально пропускати трафік з ІП 
+warp-cli tunnel ip add 192.168.1.10
+
+warp-cli disconnect
+warp-cli connect
+warp-cli status
 
 # sudo su
 # sudo apt update
