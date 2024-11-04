@@ -130,6 +130,44 @@ alias q='exit'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+# Перелік команд які виконуватимуться з програмою GRC
+alias ip="grc ip addr" # якщо потрібно детільне інфо добавити дескриптор -d: example grc ip -d addr show
+alias ping="grc ping"
+alias netstat="grc netstat"
+alias traceroute="grc traceroute"
+alias ifconfig="grc ifconfig"
+#alias ls="grc ls"              # Показ кольору для виводу списку файлів
+alias df="grc df"              # Інформація про файлову систему
+alias mount="grc mount"        # Інформація про змонтовані файлові системи
+alias ps="grc ps"              # Вивід списку процесів
+#alias tail="grc tail"          # Вивід останніх рядків з кольоровим виділенням (наприклад, для логів)
+#alias diff="grc diff"          # Відмінності між файлами
+#alias ping6="grc ping6"        # Пінг IPv6
+alias dig="grc dig"            # Запити DNS
+alias df="grc df"              # Статус файлових систем
+alias whois="grc whois"        # Пошук інформації про домени
+#alias uname="grc uname"        # Інформація про систему
+alias journalctl="grc journalctl" # Логи системного журналу
+alias uptime="grc uptime"      # Час роботи системи і навантаження
+#alias top="grc top"            # Моніторинг процесів
+#alias dmesg="grc dmesg"        # Системні повідомлення
+alias free="grc free"          # Інформація про пам'ять
+#Робота з файлами та дисками
+alias findmnt="grc findmnt"
+alias lsblk="grc lsblk"
+alias fdisk="sudo grc fdisk -l"
+
+alias sda="sudo grc fdisk -l /dev/sda"
+alias sdb="sudo grc fdisk -l /dev/sdb"
+alias sdc="sudo grc fdisk -l /dev/sdc"
+
+# alias fdisk="sudo grc parted /dev/sda print"
+# alias fdisk="sudo grc parted /dev/sdb print"
+# alias fdisk="sudo grc parted /dev/sdc print"
+
 
 #Гафічне оформлення консолі
 eval "$(oh-my-posh init bash --config ~/.poshthemes/cert.omp.json)"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
