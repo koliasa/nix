@@ -1,7 +1,11 @@
 # Браузер
 sudo apt install lynx
 # Погода
+curl wttr.in/Ternopil?1
 curl wttr.in/Ternopil
+# якщо з повідомлення потрібно видалити певний рядок
+curl -s "wttr.in/Ternopil?1&Q" | sed '/Follow @igor_chubin/d'
+
 # Консольний музичний плеєр
 sudo snap install musikcube
 # Топовий диспечер завдань
@@ -33,3 +37,7 @@ sudo snap refresh
 
 # Це дозволить оновити всі пакунки, незважаючи на phased updates.
 sudo apt-get upgrade -o APT::Get::Always-Include-Phased-Updates=true
+
+# Перевірити
+# Консольний плеєр 
+https://github.com/maxcurzi/tplay

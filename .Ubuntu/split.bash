@@ -1,0 +1,4 @@
+Plugable USB C to HDMI Adapter, Universal Video Graphics Adapter for USB 3.0 and USB-C Macs and Windows, Extend an HDMI Monitor up to 1080p@60Hz
+Plugable Dual Monitor Adapter for M1/M2/M3 Based macOS Systems, Windows, ChromeOS. Broad Compatibility - Thunderbolt, USB-C or USB 3.0 to HDMI Adapter for Dual Monitors at 1920x1080 @ 60Hz Resolution
+Plugable USB to DisplayPort Adapter. Connect one or More to Any Mac or Windows System to add Extra displays up to 1920x1080 60hz. USB C and A
+Plugable 7-Port USB 3.0 Hub with 36W Power Adapter - Driverless - Effortlessly Connect Devices and Transfer Data at High Speeds

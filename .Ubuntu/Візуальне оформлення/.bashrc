@@ -156,14 +156,14 @@ alias free="grc free"          # Інформація про пам'ять
 alias findmnt="grc findmnt"
 alias lsblk="grc lsblk"
 alias fdisk="sudo grc fdisk -l"
-
 alias sda="sudo grc fdisk -l /dev/sda"
 alias sdb="sudo grc fdisk -l /dev/sdb"
 alias sdc="sudo grc fdisk -l /dev/sdc"
-
 # alias fdisk="sudo grc parted /dev/sda print"
 # alias fdisk="sudo grc parted /dev/sdb print"
 # alias fdisk="sudo grc parted /dev/sdc print"
+#Оновлення списку пакетів після успішного апгрейду оновляться апки
+alias up="sudo apt update && sudo apt upgrade -y"
 
 
 #Гафічне оформлення консолі
@@ -171,3 +171,8 @@ eval "$(oh-my-posh init bash --config ~/.poshthemes/cert.omp.json)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+#Погода
+#curl wttr.in/Ternopil?format=2
+
+alias share='read -p "Enter local domain (e.g., mysite.local): " domain && ssh -R 80:$domain:80 serveo.net'
